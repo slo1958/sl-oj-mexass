@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "clMXValidationGeneric",
+  "Id": "d2614a13-c76f-4507-b070-1a351eeba50a",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "clMXValidationGeneric-d2614a13.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

@@ -1,0 +1,8 @@
+Public Class clMXValidationGeneric
+
+    Public Property AlwaysRequired As boolean
+    Public Function ValidValue(v As string) As integer
+    End Function
+  Public Const cstValueOK As Integer = 0
+  Public Const cstMandatoryValueMissing As Integer = 1
+End Class
