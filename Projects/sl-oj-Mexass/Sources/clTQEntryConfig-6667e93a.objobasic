@@ -1,0 +1,25 @@
+Public Class clTQEntryConfig
+
+    Public Property ControlType As integer
+    Public Property LabelCaption As String
+    Public Property FieldName As String
+    Public Property ButtonRoles() As integer
+    Public Property Image As Picture
+    Public Property Collapsable As boolean
+    Public Function ButtonType(index As integer) As integer
+
+    If ButtonRoles.IsEmpty() Then Return 0
+
+    If index > ButtonRoles.LastIndex Then Return 0
+
+    Return Self.ButtonRoles[index]
+
+    End Function
+    Constructor()
+
+    Self.ButtonRoles = New Array(Of Integer)
+
+    Return
+
+    End Constructor
+End Class

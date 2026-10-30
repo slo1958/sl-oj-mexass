@@ -1,0 +1,4 @@
+Public Class clDBField
+
+    Property MyProperty As String
+End Class

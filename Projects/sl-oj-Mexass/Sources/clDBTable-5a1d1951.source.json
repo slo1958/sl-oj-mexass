@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "clDBTable",
+  "Id": "5a1d1951-da5b-4fe4-be6c-0b0d000e6b86",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "clDBTable-5a1d1951.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

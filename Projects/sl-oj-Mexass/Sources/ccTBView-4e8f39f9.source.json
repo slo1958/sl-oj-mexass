@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "ccTBView",
+  "Id": "4e8f39f9-6a66-4827-809b-d533423635dd",
+  "Kind": "Container",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "ccTBView-4e8f39f9.objobasic",
+  "LayoutFile": "ccTBView-4e8f39f9.layout.xml",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

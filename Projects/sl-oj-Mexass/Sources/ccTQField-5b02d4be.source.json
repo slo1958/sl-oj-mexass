@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "ccTQField",
+  "Id": "5b02d4be-8776-4a1a-a3c0-1b93804e866e",
+  "Kind": "Container",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "ccTQField-5b02d4be.objobasic",
+  "LayoutFile": "ccTQField-5b02d4be.layout.xml",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "clDBField",
+  "Id": "83a4b4fd-1b83-423b-ab75-a819c16eee82",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "clDBField-83a4b4fd.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

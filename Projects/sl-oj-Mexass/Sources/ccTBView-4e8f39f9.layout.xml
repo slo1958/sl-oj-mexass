@@ -1,0 +1,5 @@
+<Container width="632" height="416">
+  <ListBox name="ListBox1" x="0" y="48" width="632" height="256" lockRight="true" lockBottom="true" />
+  <Label name="Label1" x="0" y="4" width="632" height="32" text="Label1" lockRight="true" />
+  <Button name="btn_close" x="544" y="336" width="80" height="30" text="Button" lockLeft="false" lockTop="false" lockRight="true" lockBottom="true" />
+</Container>

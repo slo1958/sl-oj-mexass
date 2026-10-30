@@ -1,0 +1,16 @@
+Public Class ccTQSep Inherits ContainerControl
+
+    Public Sub Configure(config As clTQEntryConfig)
+    Label1.Text = Config.LabelCaption
+    Button1.Visible = Config.Collapsable
+
+    If Config.image = Nothing Then
+      canvas1.Visible = False
+      label1.left = 0
+
+    End If
+
+    Return
+
+    End Sub
+End Class

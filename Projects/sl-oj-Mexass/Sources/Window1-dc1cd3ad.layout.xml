@@ -1,0 +1,11 @@
+<Window width="800" height="600" title="Window1" menuBar="MainMenuBar" platform="macos">
+  <Label name="Label1" x="8" y="20" width="120" height="32" text="Label1" />
+  <TextField name="TextField1" x="128" y="20" width="168" height="32" text="" />
+  <RadioButtonGroup name="rg_type" x="128" y="64" width="168" height="112">
+    <Item text="Field" />
+    <Item text="Separator" />
+    <Item text="Collapsable" />
+  </RadioButtonGroup>
+  <Button name="Button1" x="128" y="192" width="80" height="30" text="Add" />
+  <Canvas name="Canvas1" x="312" y="8" width="72" height="584" />
+</Window>

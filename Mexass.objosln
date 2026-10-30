@@ -1,0 +1,18 @@
+{
+  "Version": 7,
+  "Id": "1798e390-92f7-4622-86f5-935bb7552be3",
+  "Name": "Mexass",
+  "LastSavedStudioVersion": "26.10.4",
+  "ActiveProject": "sl-oj-Mexass",
+  "ApplicationProjectId": "eab2c350-1c0b-4cec-acc6-88aad6e69d75",
+  "Projects": [
+    {
+      "Id": "eab2c350-1c0b-4cec-acc6-88aad6e69d75",
+      "Path": "Projects/sl-oj-Mexass",
+      "Name": "sl-oj-Mexass",
+      "Type": "Desktop"
+    }
+  ],
+  "EmptyFolders": [],
+  "AiCustomInstructions": ""
+}

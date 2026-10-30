@@ -1,0 +1,84 @@
+{
+  "Version": 7,
+  "Id": "eab2c350-1c0b-4cec-acc6-88aad6e69d75",
+  "Name": "sl-oj-Mexass",
+  "Type": "Desktop",
+  "BuildSettings": {
+    "AppName": "sl-oj-Mexass",
+    "MajorVersion": 1,
+    "MinorVersion": 0,
+    "PatchVersion": 0,
+    "CommandLineArgs": "",
+    "TargetRids": [
+      "osx-arm64"
+    ],
+    "IncludeODBCSupport": false,
+    "IncludeVideoSupport": false,
+    "WorkerProjectIds": [],
+    "DefaultWindow": "Window1",
+    "DefaultWebPage": "",
+    "WebRequestHandler": ""
+  },
+  "Metadata": {
+    "Identity": {
+      "ApplicationIdentifier": "",
+      "BundleIdentifier": "",
+      "DisplayName": "",
+      "PublisherName": "",
+      "Copyright": ""
+    },
+    "DesktopBehavior": {
+      "AllowMultipleInstances": false,
+      "TrackRecentDocuments": true
+    },
+    "ControlLibrary": {
+      "ViewMode": "Alphabetical",
+      "IncludeUiControlSubclasses": true,
+      "IncludeOptInClasses": false
+    },
+    "WebAppearance": {
+      "ThemeMode": "System",
+      "AccentColour": "#2563EB"
+    },
+    "WebHosting": {
+      "DevelopmentPort": 0,
+      "OpenBrowserOnRun": true,
+      "DeploymentPort": 8080,
+      "DeploymentNetworkAccess": "AllInterfaces",
+      "PublicUrl": "",
+      "OpenBrowserOnDeployment": false
+    },
+    "FileAssociations": [],
+    "UrlSchemes": [],
+    "Signing": {
+      "MacOS": {
+        "SigningIdentity": "",
+        "TeamId": "",
+        "EntitlementsFile": "",
+        "NotarizationProfile": ""
+      },
+      "Windows": {
+        "AzureEndpoint": "",
+        "AzureAccountName": "",
+        "AzureCertificateProfileName": "",
+        "AzureCorrelationId": "",
+        "TimestampUrl": "",
+        "PackagePublisher": ""
+      },
+      "Linux": {
+        "SigningIdentity": ""
+      }
+    },
+    "Installer": {
+      "InstallDirectoryName": "",
+      "CreateDesktopShortcut": false,
+      "MacDmgBackground": "",
+      "WindowsPackageDisplayName": "",
+      "LinuxDesktopEntryName": "",
+      "LinuxCategories": "Utility;"
+    },
+    "DefaultLocale": "en-GB",
+    "SupportedLocales": []
+  },
+  "EmptyFolders": []
+}

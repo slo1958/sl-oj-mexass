@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "clStorageMgr",
+  "Id": "bff24a22-8e1d-4454-a84a-d0b38ff8838a",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "clStorageMgr-bff24a22.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

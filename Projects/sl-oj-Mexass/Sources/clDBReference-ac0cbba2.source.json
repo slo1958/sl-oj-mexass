@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "clDBReference",
+  "Id": "ac0cbba2-7886-43b8-8cf7-65d7e3f55126",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "clDBReference-ac0cbba2.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

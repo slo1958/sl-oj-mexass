@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "App",
+  "Id": "570e67cd-e955-42e3-905a-3e32bce7521e",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "App-570e67cd.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

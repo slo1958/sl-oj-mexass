@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "MainMenuBar",
+  "Id": "f876b571-698b-44c8-a56c-ac8fcea3e9ef",
+  "Kind": "MenuBar",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "MainMenuBar-f876b571.objobasic",
+  "LayoutFile": "MainMenuBar-f876b571.layout.xml",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

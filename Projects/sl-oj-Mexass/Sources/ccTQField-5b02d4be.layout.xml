@@ -1,0 +1,6 @@
+<Container width="800" height="40">
+  <Label name="Label1" x="0" y="4" width="120" height="32" text="Label1" />
+  <TextField name="TextField1" x="125" y="4" width="480" height="32" text="" />
+  <Button name="Button1" x="720" y="4" width="80" height="30" text="Button" />
+  <Button name="Button2" x="624" y="4" width="80" height="30" text="Button" />
+</Container>

@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "ccTQSep",
+  "Id": "9fd5c93d-3696-401b-b26e-74a0ec6775ea",
+  "Kind": "Container",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "ccTQSep-9fd5c93d.objobasic",
+  "LayoutFile": "ccTQSep-9fd5c93d.layout.xml",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

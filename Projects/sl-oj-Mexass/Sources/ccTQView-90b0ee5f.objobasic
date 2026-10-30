@@ -1,0 +1,3 @@
+Public Class ccTQView Inherits ContainerControl
+
+End Class

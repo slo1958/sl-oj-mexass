@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "clTQEntryConfig",
+  "Id": "6667e93a-dbf7-42e2-b79e-f9d2b3e2b379",
+  "Kind": "Class",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "clTQEntryConfig-6667e93a.objobasic",
+  "LayoutFile": "",
+  "Notes": [],
+  "InspectorBehaviour": []
+}

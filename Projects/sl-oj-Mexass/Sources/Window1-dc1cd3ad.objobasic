@@ -1,0 +1,55 @@
+Class Window1 Inherits Window
+
+    Public Property AddedControls() As ContainerControl
+    Sub Button1_Pressed()
+    Var cc As ContainerControl = Nothing
+    Var caption As String = Self.TextField1.Text
+
+
+    Select Case Self.rg_type.SelectedRowIndex
+      Case 0
+        Var tqf As New ccTQField
+        Var tqc As New clTQEntryConfig()
+        tqc.LabelCaption = caption
+        tqf.Configure(tqc)
+        cc = tqf
+
+      Case 1
+        Var tqs As New ccTQSep
+        Var tqc As New clTQEntryConfig()
+        tqc.LabelCaption = caption
+        tqc.Collapsable = True
+        tqs.Configure(tqc)
+        cc = tqs
+
+      Case 2
+        Var tqs As New ccTQSep
+        Var tqc As New clTQEntryConfig()
+        tqc.LabelCaption = caption
+        tqc.Collapsable = false
+        tqs.Configure(tqc)
+        cc = tqs
+
+    End Select
+
+    If cc = Nothing Then Return
+
+    Var ccx As Integer = Canvas1.Left
+    Var ccy As Integer = AddedControls.Count * 40
+    Var ccw As Integer = Self.Width - canvas1.Left - 5
+
+    cc.left = ccx
+    cc.top = ccy
+    cc.Width = ccw
+
+    Self.Add(cc)
+    cc.Visible = True
+
+    Self.AddedControls.Append(cc)
+    TextField1.Text = ""
+    TextField1.SetFocus()
+
+    Return
+
+    End Sub
+End Class

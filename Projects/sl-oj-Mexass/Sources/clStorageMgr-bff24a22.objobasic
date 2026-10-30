@@ -1,0 +1,123 @@
+Public Class clStorageMgr
+
+    Public Shared Sub FindFile(baseFolder As FileSystemItem, fileName As string, MaxDownLevel As integer, Optional MaxUpLevel As integer = 0)
+    #
+    # baseFolder: folder where the method starts the search
+    #
+    # filename: the file to look for
+    #
+    # MaxDownLevel: maximum number of levels, going down.
+    # -1 means unlimited.
+    # 0 means Do Not go down
+    #
+    # MaximumUpLevel: maximum number of levels going up.
+    # -1 means unlimited. This could be very time consuming: if it reaches the top level
+    # of the volume, the method will practically do a full disk scan
+    # 0 means Do Not go down
+    #
+
+    #
+    # baseFolder: folder where the method starts the search
+    #
+    # filename: the file to look for
+    #
+    # MaxDownLevel: maximum number of levels, going down.
+    # 0 means Do Not go down
+    #
+    # MaxUpLevel: maximum number of levels, going up before starting the scan.
+    # 0 means Do Not go down
+
+    Var leftDownLevel As Integer = MaxDownLevel
+    Var leftUpLevel As Integer = MaxUpLevel
+
+    Var collectedChildItems As Array(Of FileSystemItem)
+    Var foldersToScan As Array(Of FileSystemItem)
+
+    Var tempFolder As FileSystemItem = baseFolder
+
+
+    While leftUpLevel > 0
+      If tempFolder.Parent = Nothing Then
+        leftUpLevel = -1
+
+      Else
+        tempFolder = tempFolder.Parent
+        leftUpLevel -= 1
+
+      End If
+
+    Wend
+
+    #
+    # start with the current folder
+    #
+    foldersToScan.Append(tempFolder)
+
+
+    While leftDownLevel >= 0
+      For Each currentFolder As FileSystemItem In foldersToScan
+        Var returnedList() As FileSystemItem = ScanFolder(currentFolder, fileName)
+
+        If Not returnedList.IsEmpty() And returnedList[0].IsFile Then
+          Return returnedList[0]
+
+        Else
+          # did not find the file, so sved the list of folders for next iteration
+          collectedChildItems.AppendAll(returnedList)
+
+        End If
+
+      Next
+
+      # 
+      # Transfer the list item by item to allow for filtering (later)
+      foldersToScan.RemoveAll()
+      For Each f As FileSystemItem In collectedChildItems
+        foldersToScan.Append(f)
+
+      Next
+      # here we go again
+      leftDownLevel -= 1
+
+    Wend
+
+    Return Nothing
+
+    End Sub
+    ## Scan the folder FolderToScan and returns either an array with discovered folder or an array with the discovered file as only element
+    Public Shared Function ScanFolder(FolderToScan As FileSystemItem, fileName As string) As FileSystemItem()
+    Public Function FindFileDown(baseFolder As FileSystemItem, fileName As String, MaxDownLevel As Integer) As FileSystemItem
+      #
+      # baseFolder: folder where the method starts the search
+      #
+      # filename: the file to look for
+      #
+      #
+      # Return an array of discovered folder or the file
+      #
+      Var collectedChildFolders As Array(Of FileSystemItem)
+
+      # 
+      # Scan current folder for the file
+      #
+
+
+      For Each f As FileSystemItem In FolderToScan.Children()
+        If f.IsFolder Then # skip
+          collectedChildFolders.Append(f)
+
+        ElseIf f.Name = fileName Then
+          collectedChildFolders.RemoveAll()
+          collectedChildFolders.Append(f)
+          Return collectedChildFolders
+
+
+        End If
+
+      Next
+
+      Return collectedChildFolders
+
+      End Function
+    End Function
+End Class

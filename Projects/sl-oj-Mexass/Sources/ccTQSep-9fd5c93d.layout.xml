@@ -1,0 +1,5 @@
+<Container width="784" height="40">
+  <Label name="Label1" x="40" y="4" width="624" height="32" text="Label1" lockRight="true" />
+  <Canvas name="Canvas1" x="0" y="4" width="32" height="32" />
+  <Button name="Button1" x="696" y="4" width="80" height="30" text="Button" lockLeft="false" lockRight="true" />
+</Container>

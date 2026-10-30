@@ -1,0 +1,16 @@
+{
+  "Version": 7,
+  "Name": "ccTQView",
+  "Id": "90b0ee5f-b517-46f3-a762-bda6fcf8efdb",
+  "Kind": "Container",
+  "BuildScope": "Application",
+  "Namespace": "",
+  "Folder": "",
+  "ParentModule": "",
+  "ParentModuleId": "",
+  "AvailableInDesigner": false,
+  "CodeFile": "ccTQView-90b0ee5f.objobasic",
+  "LayoutFile": "ccTQView-90b0ee5f.layout.xml",
+  "Notes": [],
+  "InspectorBehaviour": []
+}
